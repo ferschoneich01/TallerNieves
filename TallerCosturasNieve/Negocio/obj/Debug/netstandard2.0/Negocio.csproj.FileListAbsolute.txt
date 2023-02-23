@@ -1,0 +1,14 @@
+C:\Users\Fernando\Desktop\TallerCosturasNieve\Negocio\bin\Debug\netstandard2.0\Negocio.deps.json
+C:\Users\Fernando\Desktop\TallerCosturasNieve\Negocio\bin\Debug\netstandard2.0\Negocio.dll
+C:\Users\Fernando\Desktop\TallerCosturasNieve\Negocio\bin\Debug\netstandard2.0\Negocio.pdb
+C:\Users\Fernando\Desktop\TallerCosturasNieve\Negocio\bin\Debug\netstandard2.0\Datos.dll
+C:\Users\Fernando\Desktop\TallerCosturasNieve\Negocio\bin\Debug\netstandard2.0\Entidad.dll
+C:\Users\Fernando\Desktop\TallerCosturasNieve\Negocio\bin\Debug\netstandard2.0\Datos.pdb
+C:\Users\Fernando\Desktop\TallerCosturasNieve\Negocio\bin\Debug\netstandard2.0\Entidad.pdb
+C:\Users\Fernando\Desktop\TallerCosturasNieve\Negocio\obj\Debug\netstandard2.0\Negocio.csprojAssemblyReference.cache
+C:\Users\Fernando\Desktop\TallerCosturasNieve\Negocio\obj\Debug\netstandard2.0\Negocio.AssemblyInfoInputs.cache
+C:\Users\Fernando\Desktop\TallerCosturasNieve\Negocio\obj\Debug\netstandard2.0\Negocio.AssemblyInfo.cs
+C:\Users\Fernando\Desktop\TallerCosturasNieve\Negocio\obj\Debug\netstandard2.0\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Fernando\Desktop\TallerCosturasNieve\Negocio\obj\Debug\netstandard2.0\Negocio.csproj.CopyComplete
+C:\Users\Fernando\Desktop\TallerCosturasNieve\Negocio\obj\Debug\netstandard2.0\Negocio.dll
+C:\Users\Fernando\Desktop\TallerCosturasNieve\Negocio\obj\Debug\netstandard2.0\Negocio.pdb
