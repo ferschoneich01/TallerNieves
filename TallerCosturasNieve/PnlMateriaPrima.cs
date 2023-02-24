@@ -16,5 +16,11 @@ namespace TallerCosturasNieve
         {
             InitializeComponent();
         }
+
+        private void btnEstado_Click(object sender, EventArgs e)
+        {
+            vtnCantidad ca = new vtnCantidad();
+            ca.Show();
+        }
     }
 }

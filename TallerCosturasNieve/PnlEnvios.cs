@@ -16,5 +16,10 @@ namespace TallerCosturasNieve
         {
             InitializeComponent();
         }
+
+        private void PnlEnvios_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

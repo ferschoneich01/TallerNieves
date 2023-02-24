@@ -19,3 +19,8 @@ C:\Users\Fernando\Desktop\TallerCosturasNieve\obj\Debug\TallerCosturasNieve.PnlE
 C:\Users\Fernando\Desktop\TallerCosturasNieve\obj\Debug\TallerCosturasNieve.PnlMateriaPrima.resources
 C:\Users\Fernando\Desktop\TallerCosturasNieve\obj\Debug\TallerCosturasNieve.PnlOrdenes.resources
 C:\Users\Fernando\Desktop\TallerCosturasNieve\obj\Debug\TallerCosturasNieve.CrearOrden.resources
+C:\Users\Fernando\Desktop\TallerCosturasNieve\obj\Debug\TallerCosturasNieve.VerOrdenes.resources
+C:\Users\Fernando\Desktop\TallerCosturasNieve\obj\Debug\TallerCosturasNieve.vtnOrdenDetalle.resources
+C:\Users\Fernando\Desktop\TallerCosturasNieve\obj\Debug\TallerCosturasNieve.RegUsuario.resources
+C:\Users\Fernando\Desktop\TallerCosturasNieve\obj\Debug\TallerCosturasNieve.vtnUsuarios.resources
+C:\Users\Fernando\Desktop\TallerCosturasNieve\obj\Debug\TallerCosturasNieve.vtnCantidad.resources

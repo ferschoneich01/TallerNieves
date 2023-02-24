@@ -40,5 +40,11 @@ namespace TallerCosturasNieve
             fh.Show();
 
         }
+
+        private void verOrdenesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            VerOrdenes vo = new VerOrdenes();
+            AbrirFormEnPanel(vo);
+        }
     }
 }

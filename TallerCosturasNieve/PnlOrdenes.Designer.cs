@@ -62,6 +62,7 @@ namespace TallerCosturasNieve
             this.verOrdenesToolStripMenuItem.Name = "verOrdenesToolStripMenuItem";
             this.verOrdenesToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
             this.verOrdenesToolStripMenuItem.Text = "Ver ordenes";
+            this.verOrdenesToolStripMenuItem.Click += new System.EventHandler(this.verOrdenesToolStripMenuItem_Click);
             // 
             // pnlContent
             // 

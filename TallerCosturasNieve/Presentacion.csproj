@@ -90,6 +90,36 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegUsuario.Designer.cs">
+      <DependentUpon>RegUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerOrdenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerOrdenes.Designer.cs">
+      <DependentUpon>VerOrdenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vtnCantidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vtnCantidad.Designer.cs">
+      <DependentUpon>vtnCantidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vtnOrdenDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vtnOrdenDetalle.Designer.cs">
+      <DependentUpon>vtnOrdenDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vtnUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vtnUsuarios.Designer.cs">
+      <DependentUpon>vtnUsuarios.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CrearOrden.resx">
       <DependentUpon>CrearOrden.cs</DependentUpon>
     </EmbeddedResource>
@@ -121,6 +151,21 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RegUsuario.resx">
+      <DependentUpon>RegUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerOrdenes.resx">
+      <DependentUpon>VerOrdenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vtnCantidad.resx">
+      <DependentUpon>vtnCantidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vtnOrdenDetalle.resx">
+      <DependentUpon>vtnOrdenDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vtnUsuarios.resx">
+      <DependentUpon>vtnUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
