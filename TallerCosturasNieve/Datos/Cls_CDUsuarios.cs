@@ -1,15 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
 using Entidad;
 
 namespace Datos
 {
-    class Cls_CDUsuarios
+    public class Cls_CDUsuarios
     {
         public List<ClsUsuarios> Listar()
         {
-            List<ClsUsuario> listaUsuarios = new List<ClsUsuario>();
+            List<ClsUsuarios> listaUsuarios = new List<ClsUsuarios>();
 
             using (SqlConnection oConexion = new SqlConnection(ClsConexion.cadena))
             {
@@ -25,9 +29,9 @@ namespace Datos
                     {
                         while (dr.Read())
                         {
-                            listaUsuarios.Add(new ClsUsuario()
+                            listaUsuarios.Add(new ClsUsuarios()
                             {
-                                IdUsuario = Convert.ToInt32(dr["idUsuario"]),
+                               /* IdUsuario = Convert.ToInt32(dr["idUsuario"]),
                                 oRol = new ClsRol()
                                 {
                                     IdRol = Convert.ToInt32(dr["idRol"]),
@@ -41,21 +45,21 @@ namespace Datos
                                 Direccion = dr["direccion"].ToString(),
                                 Telefono = dr["telefono"].ToString(),
                                 FechaNacimiento = dr["fecha_nacimiento"].ToString(),
-                                Estado = Convert.ToByte(dr["estado"].ToString())
+                                Estado = Convert.ToByte(dr["estado"].ToString())*/
                             });
                         }
                     }
                 }
                 catch
                 {
-                    listaUsuarios = new List<ClsUsuario>();
+                    listaUsuarios = new List<ClsUsuarios>();
                 }
             }
 
             return listaUsuarios;
         }
 
-        public int Registrar(ClsUsuario objUsuario, out string mensaje)
+        public int Registrar(ClsUsuarios objUsuario, out string mensaje)
         {
             int idUsuarioGenerado = 0;
             mensaje = string.Empty;
@@ -65,7 +69,7 @@ namespace Datos
                 using (SqlConnection oConexion = new SqlConnection(ClsConexion.cadena))
                 {
                     SqlCommand cmd = new SqlCommand("SP_RegistrarUsuario", oConexion);
-                    cmd.Parameters.AddWithValue("Rol", objUsuario.oRol.IdRol);
+                   /* cmd.Parameters.AddWithValue("Rol", objUsuario.oRol.IdRol);
                     cmd.Parameters.AddWithValue("NombreUsuario", objUsuario.NombreUsuario);
                     cmd.Parameters.AddWithValue("Clave", objUsuario.Clave);
                     cmd.Parameters.AddWithValue("Cedula", objUsuario.Cedula);
@@ -77,7 +81,7 @@ namespace Datos
                     cmd.Parameters.AddWithValue("Estado", objUsuario.Estado);
                     cmd.Parameters.Add("Resultado", SqlDbType.Int).Direction = ParameterDirection.Output;
                     cmd.Parameters.Add("Mensaje", SqlDbType.NVarChar, 500).Direction = ParameterDirection.Output;
-                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.CommandType = CommandType.StoredProcedure;*/
 
                     oConexion.Open();
 

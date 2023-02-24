@@ -180,16 +180,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Entidad\Entidad.csproj">
-      <Project>{fab362e5-8e7b-4132-a9e6-47982fbdb348}</Project>
-      <Name>Entidad</Name>
-    </ProjectReference>
-    <ProjectReference Include="Negocio\Negocio.csproj">
-      <Project>{22ac095d-769d-4c72-bc49-96f025fa5814}</Project>
-      <Name>Negocio</Name>
-    </ProjectReference>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="resources\logo-CN.png" />
   </ItemGroup>
