@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fernando\\Desktop\\TallerCosturasNieve\\Entidad\\Entidad.csproj": {}
+    "C:\\Users\\Fernando\\Desktop\\TallerNieves\\TallerCosturasNieve\\Entidad\\Entidad.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fernando\\Desktop\\TallerCosturasNieve\\Entidad\\Entidad.csproj": {
+    "C:\\Users\\Fernando\\Desktop\\TallerNieves\\TallerCosturasNieve\\Entidad\\Entidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\TallerCosturasNieve\\Entidad\\Entidad.csproj",
+        "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\TallerNieves\\TallerCosturasNieve\\Entidad\\Entidad.csproj",
         "projectName": "Entidad",
-        "projectPath": "C:\\Users\\Fernando\\Desktop\\TallerCosturasNieve\\Entidad\\Entidad.csproj",
+        "projectPath": "C:\\Users\\Fernando\\Desktop\\TallerNieves\\TallerCosturasNieve\\Entidad\\Entidad.csproj",
         "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fernando\\Desktop\\TallerCosturasNieve\\Entidad\\obj\\",
+        "outputPath": "C:\\Users\\Fernando\\Desktop\\TallerNieves\\TallerCosturasNieve\\Entidad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

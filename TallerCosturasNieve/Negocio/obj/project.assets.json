@@ -221,11 +221,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\TallerCosturasNieve\\Negocio\\Negocio.csproj",
+      "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\TallerNieves\\TallerCosturasNieve\\Negocio\\Negocio.csproj",
       "projectName": "Negocio",
-      "projectPath": "C:\\Users\\Fernando\\Desktop\\TallerCosturasNieve\\Negocio\\Negocio.csproj",
+      "projectPath": "C:\\Users\\Fernando\\Desktop\\TallerNieves\\TallerCosturasNieve\\Negocio\\Negocio.csproj",
       "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fernando\\Desktop\\TallerCosturasNieve\\Negocio\\obj\\",
+      "outputPath": "C:\\Users\\Fernando\\Desktop\\TallerNieves\\TallerCosturasNieve\\Negocio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -246,11 +246,11 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\Fernando\\Desktop\\TallerCosturasNieve\\Datos\\Datos.csproj": {
-              "projectPath": "C:\\Users\\Fernando\\Desktop\\TallerCosturasNieve\\Datos\\Datos.csproj"
+            "C:\\Users\\Fernando\\Desktop\\TallerNieves\\TallerCosturasNieve\\Datos\\Datos.csproj": {
+              "projectPath": "C:\\Users\\Fernando\\Desktop\\TallerNieves\\TallerCosturasNieve\\Datos\\Datos.csproj"
             },
-            "C:\\Users\\Fernando\\Desktop\\TallerCosturasNieve\\Entidad\\Entidad.csproj": {
-              "projectPath": "C:\\Users\\Fernando\\Desktop\\TallerCosturasNieve\\Entidad\\Entidad.csproj"
+            "C:\\Users\\Fernando\\Desktop\\TallerNieves\\TallerCosturasNieve\\Entidad\\Entidad.csproj": {
+              "projectPath": "C:\\Users\\Fernando\\Desktop\\TallerNieves\\TallerCosturasNieve\\Entidad\\Entidad.csproj"
             }
           }
         }

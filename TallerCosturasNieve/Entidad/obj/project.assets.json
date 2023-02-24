@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\TallerCosturasNieve\\Entidad\\Entidad.csproj",
+      "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\TallerNieves\\TallerCosturasNieve\\Entidad\\Entidad.csproj",
       "projectName": "Entidad",
-      "projectPath": "C:\\Users\\Fernando\\Desktop\\TallerCosturasNieve\\Entidad\\Entidad.csproj",
+      "projectPath": "C:\\Users\\Fernando\\Desktop\\TallerNieves\\TallerCosturasNieve\\Entidad\\Entidad.csproj",
       "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fernando\\Desktop\\TallerCosturasNieve\\Entidad\\obj\\",
+      "outputPath": "C:\\Users\\Fernando\\Desktop\\TallerNieves\\TallerCosturasNieve\\Entidad\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
