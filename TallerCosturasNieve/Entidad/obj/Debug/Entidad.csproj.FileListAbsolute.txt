@@ -1,0 +1,6 @@
+C:\Users\Fernando\Desktop\TallerNieves\TallerCosturasNieve\Entidad\bin\Debug\Entidad.dll
+C:\Users\Fernando\Desktop\TallerNieves\TallerCosturasNieve\Entidad\bin\Debug\Entidad.pdb
+C:\Users\Fernando\Desktop\TallerNieves\TallerCosturasNieve\Entidad\obj\Debug\Entidad.csprojAssemblyReference.cache
+C:\Users\Fernando\Desktop\TallerNieves\TallerCosturasNieve\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\Fernando\Desktop\TallerNieves\TallerCosturasNieve\Entidad\obj\Debug\Entidad.dll
+C:\Users\Fernando\Desktop\TallerNieves\TallerCosturasNieve\Entidad\obj\Debug\Entidad.pdb

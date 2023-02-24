@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>5fe78c7d-9ad4-44b8-adea-4bba2d8d488a</ProjectGuid>
+    <ProjectGuid>{5FE78C7D-9AD4-44B8-ADEA-4BBA2D8D488A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Entidad</RootNamespace>
@@ -31,24 +31,40 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ClsBodegas.cs" />
+    <Compile Include="ClsCategorias.cs" />
+    <Compile Include="ClsClienteJuridico.cs" />
+    <Compile Include="ClsClienteNatural.cs" />
+    <Compile Include="ClsDirecciones.cs" />
+    <Compile Include="ClsEstadoCliente.cs" />
+    <Compile Include="ClsEstadoFactura.cs" />
+    <Compile Include="ClsEstadoUsuario.cs" />
+    <Compile Include="ClsEstado_MP.cs" />
+    <Compile Include="ClsFacturas.cs" />
+    <Compile Include="ClsMateriaPrima.cs" />
+    <Compile Include="ClsOrdenClienteJuridico.cs" />
+    <Compile Include="ClsOrdenClienteNatural.cs" />
+    <Compile Include="ClsOrdenDetalle.cs" />
+    <Compile Include="ClsOrdenes.cs" />
+    <Compile Include="ClsPaises.cs" />
+    <Compile Include="ClsPersonaIdentificacion.cs" />
+    <Compile Include="ClsPersonas.cs" />
+    <Compile Include="ClsProductos.cs" />
+    <Compile Include="ClsRepresentante.cs" />
+    <Compile Include="ClsRoles.cs" />
+    <Compile Include="ClsTipoIdentificacion.cs" />
+    <Compile Include="ClsUsuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
- </Project>
+</Project>

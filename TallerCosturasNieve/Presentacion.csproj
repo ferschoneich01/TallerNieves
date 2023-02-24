@@ -185,5 +185,15 @@
   <ItemGroup>
     <Content Include="resources\logo-CN.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Datos\Datos.csproj">
+      <Project>{9df85fd0-712e-4fc7-ba80-13ba684a9096}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="Negocio\Negocio.csproj">
+      <Project>{517c1250-07d9-4500-890f-66877e059ce5}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

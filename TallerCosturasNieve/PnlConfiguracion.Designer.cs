@@ -55,6 +55,8 @@ namespace TallerCosturasNieve
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.lblCC = new System.Windows.Forms.Label();
             this.btnGuardar = new System.Windows.Forms.Button();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -325,12 +327,34 @@ namespace TallerCosturasNieve
             this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.button3_Click);
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(15, 365);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(28, 21);
+            this.label15.TabIndex = 103;
+            this.label15.Text = "---";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(13, 346);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(56, 15);
+            this.label16.TabIndex = 102;
+            this.label16.Text = "Telefono:";
+            // 
             // PnlConfiguracion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(701, 414);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label16);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.lblCC);
             this.Controls.Add(this.lblCcontraseña);
@@ -390,5 +414,7 @@ namespace TallerCosturasNieve
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.Label lblCC;
         private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
     }
 }

@@ -50,3 +50,5 @@ C:\Users\Fernando\Desktop\TallerNieves\TallerCosturasNieve\obj\Debug\Presentacio
 C:\Users\Fernando\Desktop\TallerNieves\TallerCosturasNieve\obj\Debug\Presentacion.csproj.CopyComplete
 C:\Users\Fernando\Desktop\TallerNieves\TallerCosturasNieve\obj\Debug\TallerCosturasNieve.exe
 C:\Users\Fernando\Desktop\TallerNieves\TallerCosturasNieve\obj\Debug\TallerCosturasNieve.pdb
+C:\Users\Fernando\Desktop\TallerNieves\TallerCosturasNieve\bin\Debug\Datos.dll
+C:\Users\Fernando\Desktop\TallerNieves\TallerCosturasNieve\bin\Debug\Datos.pdb
