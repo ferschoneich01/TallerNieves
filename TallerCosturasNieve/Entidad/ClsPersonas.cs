@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Entidad
 {
-    class ClsPersonas
+    public class ClsPersonas
     {
         public int idPersona { get; set; }
         public int idPersonaIdentificacion { get; set; }

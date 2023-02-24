@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using Entidad;
+using Negocio;
 
 namespace TallerCosturasNieve
 {
@@ -49,17 +51,30 @@ namespace TallerCosturasNieve
             if (txtNombreUsuario.Text == "")
             {
                 lblAlertNU.Visible = true;
-            }else if (txtClave.Text == "")
+            }
+            else if (txtClave.Text == "")
             {
                 lblAlertaC.Visible = true;
             }
             else
             {
-                //validacion de usuario y contraseña
-                Main main = new Main();
-                main.Show();
-                this.Hide();
+                ClsUsuarios oUsuario = new Cls_CNUsuarios().Listar().Where(u => u.nombreUsuario == txtNombreUsuario.Text && u.claveUsuario == txtClave.Text).FirstOrDefault();
+
+                if (oUsuario != null)
+                {
+                    //validacion de usuario y contraseña
+                    Main main = new Main();
+                    main.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Nombre de Usuario o contraseña incorrecta", "INFORMACIÓN", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
+            
+
+            
         }
 
         private void txtNombreUsuario_TextChanged(object sender, EventArgs e)

@@ -19,7 +19,7 @@ namespace Datos
             {
                 try
                 {
-                    string query = "SELECT u.idUsuario,r.idRol, r.descripcion,u.clave, u.nombreUsuario,p.cedula,p.nombres,p.apellidos,p.direccion,p.telefono,p.fecha_nacimiento, u.estado FROM Usuarios u INNER JOIN Rol r ON r.idRol = u.idRol INNER JOIN PERSONAS p on u.id_persona = p.id_persona";
+                    string query = "SELECT *, pid.descripcion as Identificacion, r.descripcion as rol FROM Usuarios u INNER JOIN ROLES r ON r.idRol = u.idRol  INNER JOIN PERSONAS p on u.idPersona = p.idPersona INNER JOIN PERSONA_IDENTIFICACION pid on p.idPersonaIdentificacion = pid.idPersonaIdentificacion";
                     SqlCommand cmd = new SqlCommand(query, oConexion);
                     cmd.CommandType = CommandType.Text;
 
@@ -31,21 +31,15 @@ namespace Datos
                         {
                             listaUsuarios.Add(new ClsUsuarios()
                             {
-                               /* IdUsuario = Convert.ToInt32(dr["idUsuario"]),
-                                oRol = new ClsRol()
-                                {
-                                    IdRol = Convert.ToInt32(dr["idRol"]),
-                                    Descripcion = dr["descripcion"].ToString()
-                                },
-                                NombreUsuario = dr["nombreUsuario"].ToString(),
-                                Clave = dr["clave"].ToString(),
-                                Cedula = dr["cedula"].ToString(),
-                                Nombres = dr["nombres"].ToString(),
-                                Apellidos = dr["apellidos"].ToString(),
-                                Direccion = dr["direccion"].ToString(),
-                                Telefono = dr["telefono"].ToString(),
-                                FechaNacimiento = dr["fecha_nacimiento"].ToString(),
-                                Estado = Convert.ToByte(dr["estado"].ToString())*/
+                                idUsuario = Convert.ToInt32(dr["idUsuario"]),
+                                nombreUsuario = dr["nombreUsuario"].ToString(),
+                                claveUsuario = dr["claveUsuario"].ToString(),
+                                
+                                idRol = Convert.ToInt32(dr["idRol"]),
+                         
+                                idPersona = Convert.ToInt32(dr["idPersona"].ToString()),
+                                idEstadoUsuario = Convert.ToByte(dr["idEstadoUsuario"].ToString())
+
                             });
                         }
                     }
